@@ -35,7 +35,7 @@ Make sure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/sergioAff/dango_ecommerce
    cd your-repo-name
    ```
 
