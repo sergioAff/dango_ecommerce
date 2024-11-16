@@ -31,7 +31,7 @@ export const Hero = () => {
         prevEl: ".swiper-button-prev",
       }}
       autoplay={{
-        delay: 500000,
+        delay: 5000,
         disableOnInteraction: false,
       }}
       loop={true}
