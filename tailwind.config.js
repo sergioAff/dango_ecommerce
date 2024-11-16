@@ -13,6 +13,9 @@ module.exports = {
       colors: {
         primary: "#7AA65A",
       },
+      boxShadow: {
+        custom: "3px 3px 9px rgba(0, 0, 0, 0.25)",
+      },
     },
   },
   plugins: [],
