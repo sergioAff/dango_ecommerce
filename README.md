@@ -54,6 +54,22 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ---
 
+## Images
+
+### Desktop
+
+| Screenshot 1 | Screenshot 2 | Screenshot 3 |
+|--------------|--------------|--------------|
+| ![Xnip2024-11-17_12-04-35](https://github.com/user-attachments/assets/c0b16122-9199-4026-bdbc-f384dfa291f7) | ![Xnip2024-11-17_12-04-41](https://github.com/user-attachments/assets/b03a31cb-adc2-4215-8ca1-ea2cb429c1da) | ![Xnip2024-11-17_12-04-56](https://github.com/user-attachments/assets/44d3935c-12ae-4f40-a82f-17f3aaf2834d) |
+
+### Mobile
+
+| Mobile View |
+|--------------|
+| ![Xnip2024-11-17_12-05-32](https://github.com/user-attachments/assets/a5a5b77f-9acd-4ef2-8f4b-946fa4a45c58) |
+
+
+
 ## Contact 📬
 
 For any questions or feedback, feel free to contact:
