@@ -17,7 +17,7 @@ export const Cart: React.FC = () => {
 
   return (
     <div className="fixed bg-black/30 inset-0 z-50 flex items-center justify-center">
-      <div className="bg-white rounded-md p-4 flex flex-col gap-3 items-start text-primary md:w-[60dvw]">
+      <div className="bg-white rounded-md p-4 flex flex-col gap-3 items-start text-primary md:w-[50dvw]">
         <h2 className="text-lg  font-bold">Tu Carrito</h2>
         {items.length === 0 ? (
           <p>El carro está vacío</p>
