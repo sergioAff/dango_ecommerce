@@ -27,8 +27,8 @@ export default function Home() {
           >
             {CardsData().map((data, index) => (
               <SwiperSlide key={index}>
-                <div className="flex flex-colol items-center justify-center md:px-2 ">
-                  <div className="pt-11 grid grid-cols-2 md:grid-cols-4 gap-y-8 gap-x-7 md:gap-x-5 md:gap-y-11 pb-10 max-w-sm md:max-w-[951px]">
+                <div className="flex justify-center px-3 ">
+                  <div className="pt-11 grid grid-cols-2 md:grid-cols-4 gap-y-8 gap-x-7 md:gap-x-5 md:gap-y-11 pb-10 w-full md:max-w-[951px]">
                     {data.map((card) => (
                       <Card
                         key={card.id}
