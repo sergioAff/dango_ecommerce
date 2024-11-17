@@ -1,5 +1,3 @@
-"use client";
-
 import { HeroInfo } from "@/utils/HeroInfo";
 import { ScrollButtons } from "@/components/Hero/ScrollButtons";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -24,7 +22,7 @@ export const Hero = () => {
   return (
     <Swiper
       slidesPerView={1}
-      className={`w-full mt-1.5 relative`}
+      className={`mt-1.5`}
       modules={[Navigation, Autoplay]}
       navigation={{
         nextEl: ".swiper-button-next",
@@ -52,9 +50,9 @@ export const Hero = () => {
               alt="Modelo"
               title="Modelo"
               priority
-              width={1000}
-              height={1000}
-              className="rounded-xl w-[280px] h-[320px] lg:w-[486px] lg:h-[524px] object-cover"
+              width={2000}
+              height={2000}
+              className="rounded-xl w-[280px] h-[320px] lg:min-w-[486px] lg:min-h-[524px] object-cover"
             />
             <div className="flex flex-col pt-[33px] md:pt-0 gap-10 md:pb-14 lg:pb-32">
               <div className="px-12 md:px-0 md:flex flex-col gap-5">
@@ -80,7 +78,7 @@ export const Hero = () => {
             </div>
           </div>
         </SwiperSlide>
-      ))}{" "}
+      ))}
       <ScrollButtons />
     </Swiper>
   );

@@ -11,7 +11,9 @@ export const arrowRight = (
 
 export const ScrollButtons = () => {
   return (
-    <div className="absolute bottom-0 lg:bottom-24 left-0  right-0 md:right-auto flex gap-[6px] justify-center px-10 pb-10">
+    <div
+      className={`absolute bottom-10 lg:bottom-36 left-0 md: right-0 md:right-auto flex gap-[6px] justify-center z-40`}
+    >
       <button className="swiper-button-prev rotate-180 z-10 group border-2 hover:cursor-pointer border-primary hover:bg-primary px-3 py-[7px] rounded-[99px]">
         {arrowRight}
       </button>
