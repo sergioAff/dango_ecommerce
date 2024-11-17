@@ -1,5 +1,7 @@
-import type { Metadata } from "next";
+import { Metadata } from "next";
 import { Header } from "@/components/header/Header";
+import { Cart } from "@/components/Cart";
+import { StoreProvider } from "@/components/StoreProvider";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -17,9 +19,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`antialiased`}>
-        <Header />
-        {children}
+      <body className="antialiased relative">
+        <StoreProvider>
+          <Header />
+          <Cart />
+          {children}
+        </StoreProvider>
       </body>
     </html>
   );

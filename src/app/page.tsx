@@ -8,7 +8,7 @@ import { ScrollButtonsMain } from "@/components/Main/ScrollButtonsMain";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="relative">
       <Hero />
       <div className="py-14 ">
         <h2 className="text-center font-bold text-3xl leading-10 text-primary/60">
@@ -32,6 +32,7 @@ export default function Home() {
                     {data.map((card) => (
                       <Card
                         key={card.id}
+                        id={card.id}
                         image={card.image}
                         price={card.price}
                       />
