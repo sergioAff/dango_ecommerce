@@ -1,4 +1,4 @@
-const arrowRight = (
+export const arrowRight = (
   <svg
     className="w-4 h-4 group-hover:fill-white fill-primary"
     viewBox="0 0 16 16"
