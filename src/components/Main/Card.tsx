@@ -29,7 +29,7 @@ export const Card = ({ id, image, price }: CardInterface) => {
           priority
           className=" object-cover p-0.5"
         />
-        <div className="flex flex-col gap-0.5 md:flex-row justify-between items-center pt-1.5 pb-1 md:pt-3">
+        <div className="flex flex-col gap-0.5 md:flex-row justify-between items-center pt-1.5 pb-1 sm:pt-3">
           <p>${price}</p>
           <button
             className="bg-primary rounded-[14px] text-white h-[26px] w-[98px] text-shadow"
