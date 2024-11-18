@@ -58,15 +58,17 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ### Desktop
 
-| Screenshot 1 | Screenshot 2 | Screenshot 3 |
-|--------------|--------------|--------------|
-| ![Xnip2024-11-17_12-04-35](https://github.com/user-attachments/assets/c0b16122-9199-4026-bdbc-f384dfa291f7) | ![Xnip2024-11-17_12-04-41](https://github.com/user-attachments/assets/b03a31cb-adc2-4215-8ca1-ea2cb429c1da) | ![Xnip2024-11-17_12-04-56](https://github.com/user-attachments/assets/44d3935c-12ae-4f40-a82f-17f3aaf2834d) |
+![1](https://github.com/user-attachments/assets/cb6bb7cc-38dc-40b0-bb99-e226d582618f)
+![2](https://github.com/user-attachments/assets/af656f91-2bc8-470c-8734-0f624774197d)
+
 
 ### Mobile
 
 | Mobile View |
 |--------------|
-| ![Xnip2024-11-17_12-05-32](https://github.com/user-attachments/assets/a5a5b77f-9acd-4ef2-8f4b-946fa4a45c58) |
+| ![3](https://github.com/user-attachments/assets/3f752bf2-a72e-4925-a0ae-b39f23fd3483)
+| ![4](https://github.com/user-attachments/assets/4810566c-18d2-4919-864b-00e61ab1a35d)
+
 
 
 
