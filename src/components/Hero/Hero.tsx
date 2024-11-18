@@ -42,7 +42,6 @@ export const Hero = () => {
     window.addEventListener("load", calculateInitialDistance);
     window.addEventListener("orientationchange", calculateInitialDistance);
     document.addEventListener("fullscreenchange", calculateInitialDistance);
-    document.addEventListener("DOMSubtreeModified", calculateInitialDistance);
 
     return () => {
       window.removeEventListener("resize", calculateInitialDistance);
